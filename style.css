@@ -30,7 +30,8 @@ body {
 
 input {
   font-family: "Quicksand", sans-serif;
-  padding: 10px 5px;
+  padding: 10px 10px;
+  width: 300px;
   border: none;
   border-radius: 5px;
   background-color: rgb(235, 235, 235);
@@ -38,8 +39,9 @@ input {
 
 button {
   font-family: "Quicksand", sans-serif;
+  font-weight: bold;
   cursor: pointer;
-  padding: 5px 5px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   background-color: rgb(235, 235, 235);
@@ -55,34 +57,26 @@ button:hover {
 }
 
 .list-container h2 {
+  background-color: rgb(235, 235, 235);
   text-align: center;
+  padding: 10px 10px;
 }
 
 .student-information {
   display: flex;
-  gap: 200px;
+  gap: 100px;
 }
 
-.full-name {
-  font-weight: bold;
-}
-
-.full-name p {
-  font-weight: initial;
-}
-
-.student-id {
-  font-weight: bold;
-}
-
-.student-id p {
-  font-weight: initial;
-}
-
+.full-name,
+.student-id,
 .major {
   font-weight: bold;
+  width: 250px;
+  text-align: center;
 }
 
+.full-name p,
+.student-id p,
 .major p {
   font-weight: initial;
 }
